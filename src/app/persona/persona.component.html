@@ -1,0 +1,12 @@
+
+<td style="background-color:orange">{{persona?.name}}</td>
+<td style="background-color:orange">{{persona?.costoBologna|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoBrento|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoMadonna|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoMonte|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoSan|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoBivigliano|currency:'EUR':true}}</td>
+<td style="background-color:orange">{{persona?.costoFirenze|currency:'EUR':true}}</td>
+<td style="background-color:green">{{persona?.costoFirenze+persona?.costoBologna+persona?.costoBrento+persona?.costoMadonna+persona?.costoMonte+persona?.costoSan+persona?.costoBivigliano|currency:'EUR':true}}</td>
+<td style="background-color:blue">{{persona?.pagato|currency:'EUR':true}}</td>
+<td style="background-color:red">{{persona?.costoFirenze+persona?.costoBologna+persona?.costoBrento+persona?.costoMadonna+persona?.costoMonte+persona?.costoSan+persona?.costoBivigliano-persona?.pagato|currency:'EUR':true}}</td>

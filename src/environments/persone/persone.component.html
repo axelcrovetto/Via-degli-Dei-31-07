@@ -1,0 +1,25 @@
+<a class="btn btn-outline-success" aria-current="page" 
+      href="https://www.viadeglidei.it/le-tappe">Le Persone</a>
+
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th class="table-primary">Giorno</th>
+      <th class="table-primary">Data</th>
+      <th class="table-primary">Città</th>
+      <th class="table-primary">Prezzo Totale</th>
+      <th class="table-primary">Prezzo Ciascuno</th>
+      <th class="table-primary">Caparra</th>
+      <th class="table-primary">Pagamento</th>
+      <th class="table-primary">Conto</th>
+      <th class="table-primary">Note</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr app-persona *ngFor="let persona of persone" id="{{persona.id}}" [persona-data]="persona">
+  
+    </tr>
+  </tbody>
+  
+  </table>

@@ -1,0 +1,35 @@
+<h1>Tabella singoli</h1>
+<table class="table table-dark table-sm table-striped" >
+  <thead>
+    <caption>{{title}}</caption>
+    <tr>
+      <th>Città</th>
+      <th>Bologna</th>
+      <th>Monte Adone</th>
+      <th>Madonna dei F.</th>
+      <th>Monte di Fo'</th>
+      <th>San Piero.</th>
+      <th>Bivigliano</th>
+      <th>Firenze</th>
+      <th>Totale</th>
+      <th>Pagato</th>
+      <th>Da pagare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr app-persona *ngFor="let persona of persone" id="{{persona.id}}" [persona-data]="persona">
+
+    </tr>
+  </tbody>
+  
+  </table>
+
+<!--   <th>Città</th>
+  <th>Amarildo</th>
+  <th>Elisabetta</th>
+  <th>Virginia</th>
+  <th>Gabriele</th>
+  <th>Federico</th>
+  <th>Sara</th>
+  <th>Alex</th>
+  <th>Axel</th> -->

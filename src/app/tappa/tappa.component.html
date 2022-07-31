@@ -1,0 +1,27 @@
+
+<td style="background-color:hsl(146, 61%, 88%)">{{tappa?.id}}</td>
+<td style="background-color:hsl(146, 61%, 80%)">{{tappa?.data|date:'longDate'}}</td>
+<td style="background-color:hsl(146, 61%, 70%)">{{tappa?.name}}</td>
+<td style="background-color:hsl(146, 63%, 63%)">{{tappa?.costo | currency:'EUR':true}}</td>
+<td style="background-color:hsl(146, 63%, 53%)">{{tappa?.costoATesta | currency:'EUR':true}}</td>
+<td style="background-color:hsl(146, 63%, 50%)">{{tappa?.caparra}}</td>
+<td style="background-color:hsl(146, 61%, 46%)">{{tappa?.pagamento}}</td>
+<td style="background-color:hsl(146, 63%, 40%);">{{tappa?.modalitaPagamento}}</td>
+<td style="background-color:hsl(146, 63%, 35%)">{{tappa?.note}}</td>
+<!-- <td>
+  <div class="row">
+    <div class="col-sm">
+      <a class="btn btn-sm btn-primary w-50" [routerLink] ="['/tappe',tappa?.id ]">
+        <fa-icon [icon]="faInfo"></fa-icon>
+      </a>
+    </div>
+    <div class="col-sm">
+  <a class="btn btn-sm btn-primary w-50" [routerLink] ="['/tappe',tappa?.id ,'edit']">
+    <fa-icon [icon]="faPen"></fa-icon>
+    </a>
+    </div>
+    <div class="col-sm">
+  <button class="btn btn-sm btn-danger w-50" (click)="deleteTappa()"> <fa-icon [icon]="faTrash"></fa-icon></button>
+  </div>
+  </div>
+</td> -->
