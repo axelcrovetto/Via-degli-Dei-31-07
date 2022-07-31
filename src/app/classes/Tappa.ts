@@ -9,6 +9,7 @@ export class Tappa implements TappaInterface {
   note:string;
   pagamento:string;
   modalitaPagamento:string;
+  distanza:number;
   constructor() {
     this.id = 0;
     this.name = '';
@@ -19,5 +20,6 @@ export class Tappa implements TappaInterface {
     this.note='-';
     this.pagamento='';
     this.modalitaPagamento='';
+    this.distanza=0;
   }
 }

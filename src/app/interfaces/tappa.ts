@@ -8,4 +8,5 @@ export interface TappaInterface {
   note:string;
   pagamento:string;
   modalitaPagamento:string;
+  distanza:number;
 }

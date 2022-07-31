@@ -15,7 +15,8 @@ tappe:Array<Tappa>= [
     data:new Date("2022-8-6"),
     note: '-',
     pagamento: "Bonifico",
-    modalitaPagamento: 'Conto unico'
+    modalitaPagamento: 'Conto unico',
+    distanza: 0,
     },
   { id:2,
   name: 'Monte Adone',
@@ -25,7 +26,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-7"),
   note: '-',
   pagamento: "Bonifico, contanti, Sum up",
-  modalitaPagamento: 'Conto separato'
+  modalitaPagamento: 'Conto separato',
+  distanza: 28
   },
   { id:3,
   name: 'Madonna dei Fornelli',
@@ -35,7 +37,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-8"),
   note: '-',
   pagamento: "BOH",
-  modalitaPagamento: 'BOH'
+  modalitaPagamento: 'BOH',
+  distanza: 24
   },
   { id:4,
   name: 'Monte di Fò',
@@ -45,7 +48,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-9"),
   note: 'Pagato. Chiedere se ci ha prenotato la cena',
   pagamento: "Bonifico, contanti",
-  modalitaPagamento: 'Conto unico e separato'
+  modalitaPagamento: 'Conto unico e separato',
+  distanza: 24.5
   },
   { id:5,
   name: 'San Piero a Sieve',
@@ -55,7 +59,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-10"),
   note: 'Pagati da Sara & Alex',
   pagamento: "Solo contanti, Satispay",
-  modalitaPagamento: 'Conto separato'
+  modalitaPagamento: 'Conto separato',
+  distanza: 23
   },
   { id:6,
   name: 'Bivigliano',
@@ -65,7 +70,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-11"),
   note: 'Caparra per 9 persone, €14 ciascuno. Verificare il resto',
   pagamento: "Bonifico, contatti",
-  modalitaPagamento: 'Conto unico e separato'
+  modalitaPagamento: 'Conto unico e separato',
+  distanza: 18
   },
   { id:7,
   name: 'Firenze',
@@ -75,7 +81,8 @@ tappe:Array<Tappa>= [
   data:new Date("2022-8-12"),
   note: '-',
   pagamento: "Chiedere ad Amarildo",
-  modalitaPagamento: 'Chiedere ad Amarildo'
+  modalitaPagamento: 'Chiedere ad Amarildo',
+  distanza:17.5
   },
 ]
 
